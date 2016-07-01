@@ -1,0 +1,95 @@
+.nav {
+  background-color: #33aaee;
+  height: 50px;
+}
+.topbox {
+  background-color: #264356;
+  height: 965px;
+  padding-top: 155px;
+}
+h1 {
+  color: white;
+  font-family: geneva;
+  text-align: center;
+}
+h4 {
+  color: white;
+  font-family: geneva;
+  text-align: center;
+}
+.blueblackbox {
+  background-color: #33aaee;
+  height: 54px;
+  width: 208px;
+  margin: 0 auto;
+  border: 10px solid black;
+}
+.smallwhitebox {
+  background-color: white;
+  height: 20px;
+  width: 50px;
+  margin: 0 auto;
+  margin-top: 212px;
+  margin-bottom: 135px;
+}
+.threewhiteboxs {
+  background-color: white;
+  height: 68px;
+  width: 302px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.grayborderlessbox {
+  background-color: #e6eaec;
+  height: 191px;
+}
+.twolinetextgrayborderboxes {
+  height: 220px;
+  border-top: 15px solid #ced5d9;
+  border-bottom: 15px solid #ced5d9;
+  border-left: 8px solid #ced5d9;
+  border-right: 8px solid #ced5d9;
+}
+.threelinetextgrayborderboxes {
+  height: 250px;
+  border: px solid #ced5d9;
+  border-top: 15px solid #ced5d9;
+  border-bottom: 15px solid #ced5d9;
+  border-left: 8px solid #ced5d9;
+  border-right: 8px solid #ced5d9;
+}
+/*Cannot get bottom and top margins to be right for this section. Should probably have a top box and bottom box. */
+.graybluebox {
+  background-color: #e6eaec;
+  height: 170px;
+}
+.smallbluebox {
+  background-color: #33aaee;
+  height: 54px;
+  width: 208px;
+  margin: 0 auto;
+  transform: translateY(170%);
+}
+.bottombox {
+  background-color: black;
+  height: 130px;
+  padding: 10px;
+}
+ul {
+  text-decoration: none;
+  margin: 10px auto;
+  text-align: center;
+}
+li {
+  color: white;
+  display: inline;
+  margin: 5px;
+  padding: 5px;
+}
+.lastsmallwhitebox {
+  background-color: white;
+  height: 20px;
+  width: 125px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
