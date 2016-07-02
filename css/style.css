@@ -1,9 +1,9 @@
 .nav {
-  background-color: #33aaee;
+  background-color: #118bc0;
   height: 50px;
 }
 .topbox {
-  background-color: #264356;
+  background-color: #344051;
   height: 965px;
   padding-top: 155px;
 }
@@ -18,7 +18,7 @@ h4 {
   text-align: center;
 }
 .blueblackbox {
-  background-color: #33aaee;
+  background-color: #118bc0;
   height: 54px;
   width: 208px;
   margin: 0 auto;
@@ -40,31 +40,31 @@ h4 {
   margin-top: 20px;
 }
 .grayborderlessbox {
-  background-color: #e6eaec;
+  background-color: #e8f0f5;
   height: 191px;
 }
 .twolinetextgrayborderboxes {
   height: 220px;
-  border-top: 15px solid #ced5d9;
-  border-bottom: 15px solid #ced5d9;
-  border-left: 8px solid #ced5d9;
-  border-right: 8px solid #ced5d9;
+  border-top: 15px solid #d1d3d7;
+  border-bottom: 15px solid #d1d3d7;
+  border-left: 8px solid #d1d3d7;
+  border-right: 8px solid #d1d3d7;
 }
 .threelinetextgrayborderboxes {
   height: 250px;
-  border: px solid #ced5d9;
-  border-top: 15px solid #ced5d9;
-  border-bottom: 15px solid #ced5d9;
-  border-left: 8px solid #ced5d9;
-  border-right: 8px solid #ced5d9;
+  border: px solid #d1d3d7;
+  border-top: 15px solid #d1d3d7;
+  border-bottom: 15px solid #d1d3d7;
+  border-left: 8px solid #d1d3d7;
+  border-right: 8px solid #d1d3d7;
 }
 /*Cannot get bottom and top margins to be right for this section. Should probably have a top box and bottom box. */
 .graybluebox {
-  background-color: #e6eaec;
+  background-color: #e8f0f5;
   height: 170px;
 }
 .smallbluebox {
-  background-color: #33aaee;
+  background-color: #118bc0;
   height: 54px;
   width: 208px;
   margin: 0 auto;
