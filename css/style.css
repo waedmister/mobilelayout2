@@ -49,9 +49,9 @@ span {
   transform: translateY(50%)
 }
 .topbox {
-  background-color: #344051;
   height: 965px;
   padding-top: 155px;
+  background-image: url('../images/crowd.jpg');
 }
 h1 {
   color: white;
@@ -68,7 +68,8 @@ h4 {
   height: 54px;
   width: 208px;
   margin: 0 auto;
-  border: 10px solid black;
+  border: 10px solid transparent;
+  background-clip: padding-box;
 }
 .createwebsite {
   color: white;
@@ -78,12 +79,17 @@ h4 {
   transform: translateY(-25%)
 }
 .smallwhitebox {
-  background-color: white;
   height: 20px;
   width: 50px;
   margin: 0 auto;
   margin-top: 212px;
   margin-bottom: 135px;
+}
+.v {
+  color: white;
+  text-align: center;
+  font-family: geneva;
+  font-size: 20px;
 }
 .threewhiteboxes {
   height: 68px;
@@ -92,7 +98,6 @@ h4 {
   margin-top: 30px;
 }
 .threesquaredarkgrayboxes {
-  background-color: white;
   height: 68px;
   width: 58px;
   float: left;
@@ -137,10 +142,19 @@ h4 {
 }
 .lightergraysquare {
   background-color: #c7d2d8;
+  border-radius:45px;
   height: 64px;
   width: 64px;
   margin: 0 auto;
   margin-top: 25px;
+}
+
+img.displayed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translateY(14%);
+/*added padding: 7px and it appeared to center vertically also*/
 }
 .onelinetextbox {
   height: 22px;
@@ -216,7 +230,6 @@ li {
   padding: 5px;
 }
 .lastsmallwhitebox {
-  background-color: white;
   height: 20px;
   width: 125px;
   margin: 0 auto;
